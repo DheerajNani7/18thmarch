@@ -1,0 +1,14 @@
+<html>
+    <body>
+        <script>
+            function timeanddate(){
+            let d=new Date();
+            let t=d.toLocaleTimeString();
+            let t1=d.toLocaleDateString();
+            console.log(t+" "+t1);
+            setTimeout(timeanddate, 2000);
+            }
+            timeanddate();
+        </script>
+    </body>
+</html>     
